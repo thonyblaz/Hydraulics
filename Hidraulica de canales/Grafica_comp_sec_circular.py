@@ -1,6 +1,6 @@
 """ ________________________________________________________________________________
  DESARROLLADOR       : Anthony Jean Paul Blaz Lazo
- LENGUAJE            : Python
+ LENGUAJE            : Python 3.9.1
  PROGRAMA            : Esquema de Relaciones Hidraulicas de una seccion circular
  PAGINA              : www.faneci.com
  ________________________________________________________________________________"""

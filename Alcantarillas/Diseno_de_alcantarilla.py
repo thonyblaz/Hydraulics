@@ -1,7 +1,7 @@
 """ ________________________________________________________________________________
  DESARROLLADOR       : Anthony Jean Paul Blaz Lazo
  LENGUAJE            : Python 3.9.1
- PROGRAMA            : Diseno de u n tramo de un alcantarillado sanitario o pluvial
+ PROGRAMA            : Diseno de un tramo de un alcantarillado sanitario o pluvial
  PAGINA              : www.faneci.com
  ________________________________________________________________________________"""
 import numpy as np
@@ -59,9 +59,9 @@ def diseno(Q, S, n, elec):
     elif nf > 1:
         flujo = 'SuperCritico'
     print(f"\n                       Tramo de un Alcantarillado {alc}")
-    print(f""" 
+    print(f"""
           Datos:
-            Caudal:             Q = {Q*1000} (lt/s) 
+            Caudal:             Q = {Q*1000} (lt/s)
             Pendiente:          S = {S*100} %
             Coef. de rugosidad: n = {round(n,3)}
           Calculos:
@@ -81,8 +81,8 @@ def diseno(Q, S, n, elec):
           Velocidad de flujo:              V = {round(velocidad,4)} (m/s)
           Tension tractiva:              Tau = {round(Tension_tractiva,4)} (kg/m2)
           Pendiente minima              Smin = {round(Smin,3)} % (Criterio de la tension tractiva)
-          Numero de Froude                NF = {round(nf,3)} 
-          Tipo de flujo:                {flujo} 
+          Numero de Froude                NF = {round(nf,3)}
+          Tipo de flujo:                 {flujo}
           """)
     return 1
 
